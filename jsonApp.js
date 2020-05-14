@@ -14,7 +14,7 @@ server.get('/online', (req, res) => {
 })
 
 server.get('/user', (req, res) => {
-  res.jsonp(User())
+  res.jsonp(User().user)
 })
 
 
